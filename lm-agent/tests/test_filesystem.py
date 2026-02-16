@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tools.filesystem import delete_file, edit_file, find_files, read_file, write_file
+from lm_agent.core.filesystem import delete_file, edit_file, find_files, read_file, write_file
 
 
 def test_write_read_edit_delete(tmp_path: Path) -> None:

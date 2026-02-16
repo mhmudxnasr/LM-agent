@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from lm_agent.agent import main
+from .agent import main
 
 
 if __name__ == "__main__":

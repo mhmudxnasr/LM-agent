@@ -1,0 +1,3 @@
+# LM Agent configuration defaults
+log_level: INFO
+default_working_dir: "."

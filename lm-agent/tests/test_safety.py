@@ -1,4 +1,4 @@
-from safety import SafetyManager
+from lm_agent.safety import SafetyManager
 
 
 def test_blocked_command_detection() -> None:

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tools.shell import run_command, run_python
+from lm_agent.core.shell import run_command, run_python
 
 
 def test_run_command_echo(tmp_path: Path) -> None:
